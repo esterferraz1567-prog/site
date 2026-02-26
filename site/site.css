@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f5e6d3; /* tom bege rústico */
+    color: #3e2723; /* marrom escuro */
+}
+
+/* MENU */
+nav {
+    background-color: #5d4037; /* marrom madeira */
+    color: #fff3e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 4px solid #3e2723;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff3e0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc80;
+}
+
+/* BANNER */
+header {
+    background-color: #8d6e63;
+    text-align: center;
+    padding: 70px 20px;
+    color: white;
+}
+
+header h2 {
+    font-size: 34px;
+}
+
+button {
+    background-color: #bf360c; /* vermelho churrasco */
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #8d2600;
+}
+
+/* SEÇÕES */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* CARDS */
+.card {
+    background-color: #fff8e1;
+    display: inline-block;
+    width: 260px;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid #6d4c41;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+/* CONTATO */
+#contato {
+    background-color: #d7ccc8;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #3e2723;
+    color: #fff3e0;
+    text-align: center;
+    padding: 20px;
+}
